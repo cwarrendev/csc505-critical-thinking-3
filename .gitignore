@@ -1,0 +1,10 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Word lock files
+~$*.docx
+
+# Submission archives (built artifacts)
+*.zip

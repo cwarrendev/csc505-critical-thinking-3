@@ -170,8 +170,6 @@ def main():
                                  arrowstyle="-|>,head_width=4,head_length=8", color="#666",
                                  lw=2, linestyle="--"))
     ax.text(13.8, 2.55, "return navigation (Save / Cancel / Back)", fontsize=8.5, va="center")
-    ax.text(12.6, 2.0, "Generated with Python + matplotlib\n(sketch mode) - make_paper_prototype.py",
-            fontsize=7.5, color="#666", va="top")
 
     fig.savefig("shopping_screens.png", dpi=200, bbox_inches="tight",
                 facecolor=fig.get_facecolor())
