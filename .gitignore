@@ -8,3 +8,10 @@ __pycache__/
 
 # Submission archives (built artifacts)
 *.zip
+
+# Local-only working files (not part of the assignment submission)
+CLAUDE.md
+execution_output.txt
+make_paper_prototype.py
+make_architecture.py
+shopping_architecture.uxf
